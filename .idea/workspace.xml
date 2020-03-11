@@ -1,20 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12cb4cda-c461-474b-bc2b-6a24ceb38ac0" name="Default Changelist" comment="" />
+    <list default="true" id="12cb4cda-c461-474b-bc2b-6a24ceb38ac0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager/error/ErrorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager/error/ErrorControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager/error/ErrorEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager/error/ErrorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager/error/MyErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/public/error/5xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/test/java/com/imooc/manager/controller/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/imooc/util/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/imooc/util/RestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager/ManagerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager/ManagerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manager/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/target/classes/com/imooc/manager/ManagerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/manager/target/classes/com/imooc/manager/ManagerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/target/classes/com/imooc/manager/service/ProductService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/manager/target/classes/com/imooc/manager/service/ProductService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/target/classes/com/imooc/manager/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/manager/target/classes/com/imooc/manager/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,27 +67,47 @@
     </option>
   </component>
   <component name="ProjectId" id="1YyO5lyWPrYEsNiMXJ58gEaVhem" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/manager/src/main/java/com/imooc/manager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/util/src/main/java/com/imooc/util" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.imooc.manager.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.manager.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\w1586\IdeaProjects\financialdemo\util\src\main\java\com\imooc\util" />
+      <recent name="C:\Users\w1586\IdeaProjects\financialdemo\manager\src\main\java\com\imooc\manager\error" />
       <recent name="C:\Users\w1586\IdeaProjects\financialdemo\manager\src\main\java\com\imooc\manager" />
       <recent name="C:\Users\w1586\IdeaProjects\financialdemo\entity\src\main\java" />
     </key>
@@ -67,7 +124,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProductControllerTest.addProduct">
+    <configuration name="ProductControllerTest.addProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.manager.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.manager.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.manager.controller.ProductControllerTest" />
+      <option name="METHOD_NAME" value="addProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="manager" />
       <extension name="coverage">
@@ -83,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductControllerTest.addProduct" />
         <item itemvalue="Spring Boot.ManagerApp" />
       </list>
     </recent_temporary>
@@ -98,11 +172,22 @@
       <option name="presentableId" value="Default" />
       <updated>1583911188343</updated>
       <workItem from="1583911198630" duration="987000" />
-      <workItem from="1583912230137" duration="2772000" />
+      <workItem from="1583912230137" duration="13211000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

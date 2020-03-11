@@ -3,6 +3,7 @@ package com.imooc.manager.service;
 
 import com.imooc.entity.Product;
 import com.imooc.entity.enums.ProductStatus;
+import com.imooc.manager.error.ErrorEnum;
 import com.imooc.manager.repositories.ProductRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +12,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.Assert;
 
 import javax.persistence.criteria.*;
@@ -40,6 +42,7 @@ public class ProductService {
      * @param product
      * @return
      */
+    @Transactional
     public Product addProduct(Product product) {
 
         logger.debug("创建产品，参数：{}", product);
@@ -51,7 +54,7 @@ public class ProductService {
         Product result = productRepository.save(product);
 
         logger.debug("创建产品，结束：{}", result);
-        return null;
+        return result;
     }
 
     /**
@@ -88,7 +91,7 @@ public class ProductService {
      * @param product
      */
     private void checkProduct(Product product) {
-        Assert.notNull(product.getId(), "编号不可为空");
+        Assert.notNull(product.getId(), ErrorEnum.ID_NOT_NULL.getCode());
         // 其他非空校验
 
         Assert.isTrue(BigDecimal.ZERO.compareTo(product.getRewardRate()) < 0
